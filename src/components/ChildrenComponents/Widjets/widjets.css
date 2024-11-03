@@ -1,0 +1,17 @@
+.widjets {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.widjets-column {
+    flex: calc(100% / 3 - 30px);
+    width: 290px;
+}
+
+.widjets-column:not(:first-child) {
+    padding-left: 15px;
+}
+
+.widjet-container {
+    margin-top: 25px;
+}

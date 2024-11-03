@@ -1,0 +1,55 @@
+.class-list-vertical {
+    margin: 0;
+    padding-left: 0;
+
+    font-size: 14px;
+}
+
+.class-list-flex {
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 0;
+    padding-left: 0;
+
+    font-size: 14px;
+}
+
+.list-nomark {
+    margin-right: 12px;
+    list-style-type: none;
+}
+
+.mark-list-arrow {
+    list-style-type: none;
+}
+
+.mark-list-arrow::before {
+    content: '\25ba';
+    margin-right: 5px;
+}
+
+.col1-link {
+    font-weight: 500;
+    text-decoration: none;
+
+    color: #484848;
+}
+
+.col2 {
+    margin-left: 6px;
+    font-weight: 500;
+
+    color: #484848;
+}
+
+.col3-grey {
+    margin-left: 6px;
+
+    color: #90919d;
+}
+
+.col3-black {
+    margin-left: 6px;
+
+    color: #484848;
+}

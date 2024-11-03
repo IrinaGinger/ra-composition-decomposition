@@ -1,0 +1,21 @@
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    margin-right: 12px;
+    list-style-type: none;
+}
+
+.menu-item .menu-item-link {
+    font-weight: 700;
+    text-decoration: none;
+    color: #6da2e1;
+}
+
+.menu-item.active .menu-item-link {
+    color: #0054b9;
+}
